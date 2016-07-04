@@ -1,6 +1,7 @@
 .title {
-	color: blue;
+	color: #553D2B;
 	font-weight: bolder;
+	font-size: 60px;
 }
 
 .center {
@@ -17,12 +18,34 @@ body {
 .content {
 	float: right;
 	width: 50%;
-	margin: 50px auto;
-	padding: 30px;
+	margin: 10px auto;
+	padding: 10px;
 }
 
 
 .welcome {
 	font-size: 40px;
+	color: #B79881;
+}
 
+.nav-bar {
+	right: 0;
+	top: 200px;
+	position: absolute;
+}
+
+.nav-table td {
+	padding: 5px;
+	background-color: #FDA8B4;
+	border-radius: 5px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #553D2B;
+}
+
+.nav-table a:hover {
+	color: white;
 }
