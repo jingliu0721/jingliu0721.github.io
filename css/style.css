@@ -1,6 +1,5 @@
 .title {
 	color: #553D2B;
-	font-weight: bolder;
 	font-size: 60px;
 }
 
@@ -13,6 +12,17 @@ body {
 	background-size: cover;
 	font-family: papyrus;
 	background-color: #F4F0E7;
+}
+
+.email {
+	color: #553D2B;
+	font-size: 40px;
+
+}
+
+.help {
+	font-size: 30px;
+	color: #B79881;
 }
 
 .content {
