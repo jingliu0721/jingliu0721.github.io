@@ -1,0 +1,27 @@
+.title {
+	color: blue;
+	font-weight: bolder;
+}
+
+.center {
+	text-align: center;
+}
+
+body {
+	background: url("http://wallpaperlayer.com/img/2015/6/simple-vintage-background-6645-6923-hd-wallpapers.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: papyrus;
+}
+
+.content {
+	float: right;
+	width: 50%;
+	margin: 50px auto;
+	padding: 30px;
+}
+
+
+.welcome {
+	font-size: 40px;
+
+}
