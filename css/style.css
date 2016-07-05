@@ -64,9 +64,9 @@ body {
 
 
 .nav-table td:hover {
-	border-top: 2px solid rgba(183, 152, 129,1);
-	border-left: 2px solid rgba(183, 152, 129,1);
-	border-bottom: 2px solid rgba(183, 152, 129,1);
+	border-top: 2px solid rgba(183, 152, 129,0.5);
+	border-left: 2px solid rgba(183, 152, 129,0.5);
+	border-bottom: 2px solid rgba(183, 152, 129,0.5);
 }
 
 a {
@@ -96,5 +96,5 @@ a:hover {
 }
 
 .white-box:hover {
-	border: 2px solid rgba(183, 152, 129,1);
+	border: 2px solid rgba(183, 152, 129,0.5);
 }
