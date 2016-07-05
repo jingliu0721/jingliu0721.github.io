@@ -44,10 +44,17 @@ body {
 	position: absolute;
 }
 
+.nav-table {
+	border-spacing: 0 10px;
+}
+
 .nav-table td {
 	padding: 5px;
-	background-color: #FDA8B4;
-	border-radius: 5px;
+	border-top: 2px solid #FDA8B4;
+	border-left: 2px solid #FDA8B4;
+	border-bottom: 2px solid #FDA8B4;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 	text-align: center;
 }
 
@@ -56,6 +63,14 @@ a {
 	color: #553D2B;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 .nav-table a:hover {
-	color: white;
+	color: #EF346D;
+}
+
+.answer {
+	border-spacing: 100px 0;
 }
