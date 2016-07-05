@@ -54,12 +54,19 @@ body {
 
 .nav-table td {
 	padding: 5px;
-	border-top: 2px solid #FDA8B4;
-	border-left: 2px solid #FDA8B4;
-	border-bottom: 2px solid #FDA8B4;
+	border-top: 2px solid rgba(253, 168, 180,0.5);
+	border-left: 2px solid rgba(253, 168, 180,0.5);
+	border-bottom: 2px solid rgba(253, 168, 180,0.5);
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	text-align: center;
+}
+
+
+.nav-table td:hover {
+	border-top: 2px solid rgba(253, 168, 180,1);
+	border-left: 2px solid rgba(253, 168, 180,1);
+	border-bottom: 2px solid rgba(253, 168, 180,1);
 }
 
 a {
@@ -73,8 +80,21 @@ a:hover {
 
 .nav-table a:hover {
 	color: #EF346D;
+	text-decoration: none;
 }
 
 .answer {
 	border-spacing: 100px 0;
+}
+
+.white-box {
+	border: 2px solid rgba(253, 168, 180,0.5);
+	padding: 20px;
+	border-radius: 10px;
+	height: 150px;
+	width: 70%;
+}
+
+.white-box:hover {
+	border: 2px solid rgba(253, 168, 180,1);
 }
