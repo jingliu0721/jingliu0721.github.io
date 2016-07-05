@@ -14,8 +14,14 @@
 body {
 	background: url("http://wallpaperlayer.com/img/2015/6/simple-vintage-background-6645-6923-hd-wallpapers.jpg") no-repeat center center fixed;
 	background-size: cover;
-	font-family: papyrus;
+	font-family: 'papyrus';
 	background-color: #F4F0E7;
+	overflow-x: hidden;
+}
+
+button {
+	font-family: 'papyrus';
+	font-size: 15px;
 }
 
 .email {
@@ -26,7 +32,7 @@ body {
 
 .help {
 	font-size: 20px;
-	color: #B79881;
+	color: #553D2B;
 }
 
 .content {
@@ -39,7 +45,7 @@ body {
 
 .welcome {
 	font-size: 40px;
-	color: rgba(183, 152, 129,1);
+	color: #553D2B;
 }
 
 .nav-bar {
@@ -52,21 +58,26 @@ body {
 	border-spacing: 0 10px;
 }
 
-.nav-table td {
+.nav-table button {
 	padding: 5px;
-	border-top: 2px solid rgba(183, 152, 129,1);
-	border-left: 2px solid rgba(183, 152, 129,1);
-	border-bottom: 2px solid rgba(183, 152, 129,1);
+	border-top: 2px solid #553D2B;
+	border-left: 2px solid #553D2B;
+	border-bottom: 2px solid #553D2B;
+	border-right: none;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	text-align: center;
+	background-color: transparent;
+	width: 100%;
+	outline: 0;
 }
 
-
-.nav-table td:hover {
-	border-top: 2px solid rgba(183, 152, 129,1);
-	border-left: 2px solid rgba(183, 152, 129,1);
-	border-bottom: 2px solid rgba(183, 152, 129,1);
+.nav-table button:hover {
+	border-top: 2px solid #EF346D;
+	border-left: 2px solid #EF346D;
+	border-bottom: 2px solid #EF346D;
+	color: #EF346D;
+	cursor: pointer;
 }
 
 a {
@@ -88,7 +99,7 @@ a:hover {
 }
 
 .white-box {
-	border: 2px solid rgba(183, 152, 129,1);
+	border: 2px solid #553D2B;
 	padding: 20px;
 	border-radius: 10px;
 	height: 150px;
@@ -96,5 +107,5 @@ a:hover {
 }
 
 .white-box:hover {
-	border: 2px solid rgba(183, 152, 129,1);
+	border: 2px solid #553D2B;
 }
